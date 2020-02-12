@@ -1,0 +1,43 @@
+{
+  "name": "mongodb-sidecar",
+  "version": "0.1.0",
+  "description": "Kubernetes MongoDB Cluster",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodo src/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qukichin/mongodb-sidecar.git"
+  },
+  "keywords": [
+    "kubernetes",
+    "k8s",
+    "mongodb",
+    "sidecar",
+    "docker",
+    "pod",
+    "statefulset"
+  ],
+  "author": "qukecheng <qukichin@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qukichin/mongodb-sidecar"
+  },
+  "homepage": "https://github.com/qukichin/mongodb-sidecar",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "forever": "^0.14.1",
+    "ip": "^0.3.2",
+    "moment": "^2.10.2",
+    "mongodb": "^2.0.28",
+    "node-kubernetes-client": "^0.2.2",
+    "pem": "^1.9.4"
+  }
+}
